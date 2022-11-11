@@ -6,7 +6,7 @@ public class EntornosProyectoFuturo {
         System.out.println("Estudiante " + args[0] + ": ");
         veredicto(modulos,horas);
     }
-    public static String veredicto(int modulos, int horas){
+    private static String veredicto(int modulos, int horas){
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Introduce  cuantos módulos tienes en tu grado: ");
